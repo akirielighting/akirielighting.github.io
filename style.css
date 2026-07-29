@@ -81,13 +81,7 @@ a {
   grid-template-columns: 1.03fr 0.97fr;
   padding-top: 84px;
 }
-.hero-visual img {
-  width: 50%;
-  height: 50%;
-  object-fit: contain;
-  display: block;
-  margin: auto;
-}
+
 .hero-copy {
   display: flex;
   flex-direction: column;
@@ -656,5 +650,12 @@ footer p:last-child {
 
   .email-link {
     font-size: 1.8rem;
+  }
+  .hero-visual img {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+  display: block;
+  margin: auto;
   }
 }
