@@ -84,8 +84,9 @@ a {
 .hero-visual img {
   width: 50%;
   height: 50%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
+  margin: auto;
 }
 .hero-copy {
   display: flex;
